@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 190.443 s <<< FAILURE! - in TestSuite
+tests.TestObject.failTest  Time elapsed: 71.664 s  <<< FAILURE!
+java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+	at tests.TestObject.failTest(TestObject.java:42)
+

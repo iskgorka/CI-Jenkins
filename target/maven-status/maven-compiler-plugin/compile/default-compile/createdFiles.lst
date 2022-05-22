@@ -1,0 +1,4 @@
+tests\TestObject.class
+pageObject\pages\HomePage.class
+pageObject\pages\SearchResultPage.class
+pageObject\pages\BasePage.class
