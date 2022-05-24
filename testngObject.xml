@@ -4,11 +4,6 @@
     <test name="Test Scope 1">
         <classes>
             <class name="tests.TestObject">
-                <methods>
-                    <include name="openNotebooksTest"/>
-                    <include name="findIphone13Test"/>
-                    <include name="failTest"/>
-                </methods>
             </class>
         </classes>
     </test>

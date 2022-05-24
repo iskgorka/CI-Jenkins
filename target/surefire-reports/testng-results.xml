@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="1" ignored="0" total="3" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite1" duration-ms="183523" started-at="2022-05-21T22:52:33 EEST" finished-at="2022-05-21T22:55:37 EEST">
+  <suite name="Suite1" duration-ms="103505" started-at="2022-05-22T14:10:44 EEST" finished-at="2022-05-22T14:12:27 EEST">
     <groups>
     </groups>
-    <test name="Test Scope 1" duration-ms="183523" started-at="2022-05-21T22:52:33 EEST" finished-at="2022-05-21T22:55:37 EEST">
+    <test name="Test Scope 1" duration-ms="103505" started-at="2022-05-22T14:10:44 EEST" finished-at="2022-05-22T14:12:27 EEST">
       <class name="tests.TestObject">
-        <test-method status="PASS" signature="openNotebooksTest()[pri:0, instance:tests.TestObject@694e1548]" name="openNotebooksTest" duration-ms="51148" started-at="2022-05-21T22:52:33 EEST" finished-at="2022-05-21T22:53:25 EEST">
+        <test-method status="PASS" signature="openNotebooksTest()[pri:0, instance:tests.TestObject@694e1548]" name="openNotebooksTest" duration-ms="23561" started-at="2022-05-22T14:10:44 EEST" finished-at="2022-05-22T14:11:08 EEST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openNotebooksTest -->
-        <test-method status="PASS" signature="findIphone13Test()[pri:0, instance:tests.TestObject@694e1548]" name="findIphone13Test" duration-ms="33628" started-at="2022-05-21T22:53:25 EEST" finished-at="2022-05-21T22:53:58 EEST">
+        <test-method status="PASS" signature="findIphone13Test()[pri:0, instance:tests.TestObject@694e1548]" name="findIphone13Test" duration-ms="37032" started-at="2022-05-22T14:11:08 EEST" finished-at="2022-05-22T14:11:45 EEST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- findIphone13Test -->
-        <test-method status="FAIL" signature="failTest()[pri:0, instance:tests.TestObject@694e1548]" name="failTest" duration-ms="71282" started-at="2022-05-21T22:53:58 EEST" finished-at="2022-05-21T22:55:10 EEST">
+        <test-method status="FAIL" signature="failTest()[pri:0, instance:tests.TestObject@694e1548]" name="failTest" duration-ms="38043" started-at="2022-05-22T14:11:45 EEST" finished-at="2022-05-22T14:12:23 EEST">
           <exception class="java.lang.IndexOutOfBoundsException">
             <message>
               <![CDATA[Index: 0, Size: 0]]>
@@ -70,7 +70,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- failTest -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:tests.TestObject@694e1548]" name="closeBrowser" is-config="true" duration-ms="26959" started-at="2022-05-21T22:55:10 EEST" finished-at="2022-05-21T22:55:37 EEST">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:tests.TestObject@694e1548]" name="closeBrowser" is-config="true" duration-ms="4599" started-at="2022-05-22T14:12:23 EEST" finished-at="2022-05-22T14:12:27 EEST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
