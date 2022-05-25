@@ -2,7 +2,7 @@ package tests;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.testng.annotations.AfterTest;
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.Test;
 import pageObject.pages.BasePage;
 import pageObject.pages.HomePage;
@@ -11,8 +11,8 @@ import pageObject.pages.SearchResultPage;
 public class TestObject {
 
     @Test
-    public void openNotebooksTest() {
-        String searchString = "rozetka ua";
+    public void failTest() {
+        String searchString = "selenium";
         WebDriverManager.chromedriver().setup();
         new SearchResultPage(new ChromeDriver())
                 .openGoogle()
@@ -32,8 +32,8 @@ public class TestObject {
     }
 
     @Test
-    public void failTest() {
-        String searchString = "selenium";
+    public void openNotebooksTest() {
+        String searchString = "rozetka ua";
         WebDriverManager.chromedriver().setup();
         new SearchResultPage(new ChromeDriver())
                 .openGoogle()
@@ -42,7 +42,7 @@ public class TestObject {
                 .clickOnMainCategories(0);
     }
 
-    @AfterTest
+    @AfterMethod
     public void closeBrowser() {
         BasePage.setDown();
     }

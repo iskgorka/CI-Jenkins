@@ -36,7 +36,7 @@ public class HomePage extends BasePage {
     }
 
     public HomePage clickOnProduct(int index){
-        softAssert.assertTrue(products.get(index).isDisplayed());
+        softAssert.assertTrue(products.get(0).isDisplayed());
         softAssert.assertAll();
         products.get(index).click();
         return this;
