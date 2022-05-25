@@ -11,8 +11,8 @@ import pageObject.pages.SearchResultPage;
 public class TestObject {
 
     @Test
-    public void openNotebooksTest() {
-        String searchString = "rozetka ua";
+    public void failTest() {
+        String searchString = "selenium";
         WebDriverManager.chromedriver().setup();
         new SearchResultPage(new ChromeDriver())
                 .openGoogle()
@@ -32,8 +32,8 @@ public class TestObject {
     }
 
     @Test
-    public void failTest() {
-        String searchString = "selenium";
+    public void openNotebooksTest() {
+        String searchString = "rozetka ua";
         WebDriverManager.chromedriver().setup();
         new SearchResultPage(new ChromeDriver())
                 .openGoogle()
