@@ -1,0 +1,1 @@
+{"uuid":"da1ea058-857d-433e-aa88-81febd15158f","name":"Lecture-19-HomeTask-CI-Jenkins","children":["2f841444-06b9-4471-86dd-a7b63fb30e70"],"befores":[],"afters":[{"name":"closeBrowser","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1653471713308,"stop":1653471718121}],"start":1653471638354,"stop":1653471718121}
